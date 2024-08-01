@@ -98,6 +98,10 @@ footer{
     margin-right: 0px;
 }
 
+.itens-menu {
+    margin-top: 100px;
+}
+
 .sidebar {
     height: 100%;
     width: 0;
@@ -127,7 +131,7 @@ footer{
   }
 
 
-  .sidebar .closebtn {
+  .sidebar {
     position: absolute;
     top: 0;
     right: 25px;
