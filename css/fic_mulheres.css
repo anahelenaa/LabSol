@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #384800;
+}
+
+.cabecalho {
+    background-color: #DFB7FE;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+#logo {
+    height: 95px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#menu-imagem {
+    height: 43px;
+}
+
+#menu-botao {
+    background-color: rgba(0, 0, 128, 0);
+    border: 0;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ff9801;
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sobre_fic{
+    display: flex;
+    text-align: justify;
+}
+
+.sobre_mulher_empreen{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.logo_mulher_empreen{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+p{
+    margin: 10px;
+    width: 900px;
+}
+
+ol{
+    padding-left: 40px;
+    width: 900px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+
+.img_logo_mulher_empreen{
+    background-image: url(/imagens/ProjMulheresEmpreend-Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    justify-items: center;
+    margin-top: 120px;
+    margin-right: 20px;
+}
+
+.sobre_logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt_logo{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt_logo p{
+    width: fit-content;
+}
+
+hr{
+    background-color: #384800;
+    height: 3px;
+}
