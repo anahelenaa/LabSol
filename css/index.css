@@ -74,7 +74,20 @@
 
 footer{
     background-color: #DFB7FE;
-    height: 120px;
+    height: 180px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 200px; 
+    margin-top: 30px; 
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .div-imagem:last-of-type{
@@ -99,7 +112,13 @@ footer{
 }
 
 .itens-menu {
-    margin-top: 100px;
+    margin-top: 30px;
+    text-align: center !important;
+    
+}
+
+.itens-menu a {
+    padding: 8px 8px 8px 8px;
 }
 
 .sidebar {
@@ -111,14 +130,12 @@ footer{
     right: 0;
     background-color: #DFB7FE;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding-top: 20px;
     transition: 0.5s;
   }
   
 
   .sidebar a {
-    padding: 8px 38px 8px 8px;
-    text-align: right;
     text-decoration: none;
     font-size: 25px;
     color: #384800;
@@ -129,17 +146,30 @@ footer{
   .sidebar a:hover {
     color: #749307;
   }
-
-
-  .sidebar {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
   
   #corpo {
     transition: margin-left .5s;
     padding: 20px;
+  }
+
+  .closebtn {
+    padding: 8px 38px 8px 8px;
+    font-size: 40px !important;
+    text-align: right !important;
+  }
+
+  /*CABEÇALHO QUE GRUDA*/
+  .conteudo {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky+.conteudo {
+    transition: 0.7s;
+    padding-top: 102px;
   }

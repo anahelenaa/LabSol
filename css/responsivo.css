@@ -43,9 +43,46 @@
         height: auto;
     }
 
+    .div-imagem:last-of-type{
+        margin-bottom: 20px;
+    }
+
     footer{
-        height: 80px;
+        height: 100px;
         margin-top: 40px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    footer img {
+        margin-top: 10px;
+        max-width: 120px;
+    }
+
+    /*MENU*/
+    .menu-aberto{
+        width: 100% !important;
+        opacity: 0.9;
+    }
+
+    .menu-fechado{
+        width: 0;
+    }
+
+    .corpo-menu-aberto{
+        margin-right: 0px;
+    }
+
+    .itens-menu a{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .closebtn {
+        font-size: 50px !important;
     }
 
 }
