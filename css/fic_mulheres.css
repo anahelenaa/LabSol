@@ -94,8 +94,8 @@ hr{
 
 .fic_img{
     border: solid #384800;
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 450px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -104,5 +104,30 @@ hr{
 }
 
 #fic_img1{
-    background-image: url();
+    background-image: url(/imagens/img_abert_fic.jpg);
+}
+
+#fic_img2{
+    background-image: url(/imagens/img_aula_fic.jpg);
+}
+
+#fic_img3{
+    background-image: url(/imagens/img_eva_fic.jpg);
+}
+
+#fic_img4{
+    background-image: url(/imagens/img_cestas_fic.jpg);
+}
+
+#fic_img5{
+    background-image: url(/imagens/img_cestas_fic2.jpg);
+}
+
+#fic_img6{
+    background-image: url(/imagens/img_formatura_fic.jpg);
+}
+
+.fotos_img .fic_img:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
