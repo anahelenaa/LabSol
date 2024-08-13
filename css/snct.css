@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #384800;
+}
+
+.cabecalho {
+    background-color: #DFB7FE;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+
+#logo {
+    height: 95px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+#menu-imagem {
+    height: 43px;
+}
+
+#menu-botao {
+    background-color: rgba(0, 0, 128, 0);
+    border: 0;
+    padding-right: 20px;
+}
+
+#banner {
+    background-image: url(../imagens/LabSol-banner.png);
+    height: 800px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#corpo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.texto {
+    width: 900px;
+    margin-top: 30px;
+}
+
+.texto h2{
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.container-imagem{
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    
+}
+
+.container-imagem img {
+    width: 880px;
+    height: auto;
+}
+
+footer{
+    background-color: #DFB7FE;
+    height: 180px;
+    text-align: center;
+}
+
+footer img {
+    max-width: 200px; 
+    margin-top: 30px; 
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.div-imagem:last-of-type{
+    margin-bottom: 90px;
+}
+
+/*MENU*/
+.menu-aberto{
+    width: 300px !important;
+}
+
+.menu-fechado{
+    width: 0;
+}
+
+.corpo-menu-aberto{
+    margin-right: 300px;
+}
+
+.corpo-menu-fechado{
+    margin-right: 0px;
+}
+
+.itens-menu {
+    margin-top: 30px;
+    text-align: center !important;
+    
+}
+
+.itens-menu a {
+    padding: 8px 8px 8px 8px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #DFB7FE;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+  }
+  
+
+  .sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #384800;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #749307;
+  }
+  
+  #corpo {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+
+  .closebtn {
+    padding: 8px 38px 8px 8px;
+    font-size: 40px !important;
+    text-align: right !important;
+  }
+
+  /*CABEÇALHO QUE GRUDA*/
+  .conteudo {
+    padding: 0px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  .sticky+.conteudo {
+    transition: 0.7s;
+    padding-top: 102px;
+  }
