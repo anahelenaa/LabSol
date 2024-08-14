@@ -86,3 +86,101 @@
     }
 
 }
+
+/*Monitores grandes*/
+@media screen and (min-width: 1800px) {
+    *{
+        font-size: 22px;
+    }
+    .cabecalho {
+        height: 140px;
+    }
+
+    #logo {
+        height: 110px;
+        padding-left: 30px;
+        margin-top: 15px;
+    }
+
+    #menu-imagem {
+        height: 52px;
+    }
+
+    #banner{
+        height: 1000px;
+    }
+
+    .texto {
+        width: 1000px;
+    }
+    
+    .texto h2{
+        font-size: 32px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+
+    .container-imagem{
+        width: 1000px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        
+    }
+
+    .container-imagem img {
+        width: 830px;
+        height: auto;
+    }
+
+    .div-imagem:last-of-type{
+        margin-bottom: 20px;
+    }
+
+    footer{
+        height: 160px;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    footer img {
+        margin-top: 10px;
+        max-width: 240px;
+    }
+
+    /*MENU*/
+    .menu-aberto{
+        width: 500px !important;
+    }
+
+    .menu-fechado{
+        width: 0;
+    }
+
+    .corpo-menu-aberto{
+        margin-right: 0px;
+    }
+
+    .itens-menu a{
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .closebtn {
+        font-size: 50px !important;
+    }
+
+    .corpo-menu-aberto{
+        margin-right: 300px;
+    }
+    
+    .corpo-menu-fechado{
+        margin-right: 0px;
+    }
+
+}
