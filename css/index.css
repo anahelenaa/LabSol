@@ -33,6 +33,10 @@
     padding-right: 20px;
 }
 
+#menu-botao:hover{
+    cursor: pointer;
+}
+
 #banner {
     background-image: url(../imagens/LabSol-banner.png);
     height: 800px;
