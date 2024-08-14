@@ -1,0 +1,32 @@
+h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ff9801;
+    text-align: center;
+    margin: 35px;
+}
+
+h2{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+div p{
+    margin: 10px;
+    width: 900px;
+}
+
+hr{
+    background-color: #384800;
+    height: 3px;
+    margin: 25px -30px;
+}
+

@@ -37,7 +37,7 @@ section{
     text-align: justify;
 }
 
-p{
+div p{
     margin: 10px;
     width: 900px;
 }
@@ -60,6 +60,7 @@ li{
     justify-items: center;
     margin-top: 120px;
     margin-right: 20px;
+    
 }
 
 .sobre_logo{
@@ -80,9 +81,8 @@ li{
 hr{
     background-color: #384800;
     height: 3px;
-    margin: 15px -30px;
+    margin: 25px -30px;
 }
-
 
 .fotos_img{
     display: grid;
@@ -130,4 +130,11 @@ hr{
 .fotos_img .fic_img:hover{
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    z-index: -1;
+}
+
+.img_logo_mulher_empreen:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: -1;
 }
