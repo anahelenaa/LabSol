@@ -101,6 +101,7 @@ footer p {
 /*MENU*/
 .menu-aberto{
     width: 300px !important;
+    overflow: scroll;
 }
 
 .menu-fechado{
