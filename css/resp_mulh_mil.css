@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px ) {
+@media screen and (max-width: 1024px ) {
     *{
         font-size: 16px;
     }
@@ -12,12 +12,21 @@
         margin-top: 8px;
     }
 
-    div p{
+    #banner{
+        height: 500px !important;
+    }
+
+    .sobre_fic{
         width: 600px;
+    }
+
+    div p{
+        width: 600px !important;
     }
     
     hr{
         margin: 20px 10px;
+        width: 650px;
     }
 
    h1{
@@ -74,7 +83,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     *{
         font-size: 12px;
     }
@@ -88,19 +97,23 @@
         margin-top: 8px;
     }
 
+    #banner{
+        height: 400px !important;
+    }
+
     div p{
         width: 290px;
     }
     
     hr{
-        margin: 20px 10px;
+        margin: 20px 0px;
+        width: 300px;
     }
 
-   h1{
-        font-size: 16px;
-        margin: 20px;
+    h1{
+        font-size: 20px;
+        margin: -60px 20px 20px 20px;
     }
-
     h2{
         font-size: 14px;
         margin-left: 10px;
