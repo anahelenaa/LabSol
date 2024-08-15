@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
+    text-align: center;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif; 
     font-weight: 400;
     font-size: 19px;
     color: #384800;
 }
+
+/*h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #384800;
+} */
 
 .cabecalho {
     background-color: #DFB7FE;
@@ -32,50 +40,6 @@
     border: 0;
     padding-right: 20px;
 }
-
-#menu-botao:hover{
-    cursor: pointer;
-}
-
-#banner {
-    background-image: url(../imagens/LabSol-banner.png);
-    height: 800px;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#corpo {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.texto {
-    width: 900px;
-    margin-top: 30px;
-}
-
-.texto h2{
-    font-size: 27px;
-    font-weight: 600;
-    padding-bottom: 10px;
-}
-
-.container-imagem{
-    width: 900px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    row-gap: 60px;
-    
-}
-
-.container-imagem img {
-    width: 880px;
-    height: auto;
-}
-
 footer{
     background-color: #DFB7FE;
     height: 180px;
@@ -97,11 +61,16 @@ footer p {
 .div-imagem:last-of-type{
     margin-bottom: 90px;
 }
+.texto h2{
+    font-size: 27px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
 
 /*MENU*/
+
 .menu-aberto{
     width: 300px !important;
-    overflow: scroll;
 }
 
 .menu-fechado{
@@ -178,3 +147,4 @@ footer p {
     transition: 0.7s;
     padding-top: 102px;
   }
+

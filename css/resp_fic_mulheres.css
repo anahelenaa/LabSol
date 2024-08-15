@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+    *{
+        font-size: 12px;
+    }
+    .cabecalho {
+        height: 80px;
+    }
+
+   h1{
+        font-size: 14px;
+        font-weight: 300;
+        margin: 20px;
+   }
+
+
+    footer{
+        height: 100px;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    footer img {
+        margin-top: 10px;
+        max-width: 120px;
+    }
+}
