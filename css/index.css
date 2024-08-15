@@ -100,8 +100,7 @@ footer p {
 
 /*MENU*/
 .menu-aberto{
-    width: 300px !important;
-    overflow: scroll;
+    width: 350px !important;
 }
 
 .menu-fechado{
@@ -119,11 +118,10 @@ footer p {
 .itens-menu {
     margin-top: 30px;
     text-align: center !important;
-    
 }
 
 .itens-menu a {
-    padding: 8px 8px 8px 8px;
+    padding: 17px;
 }
 
 .sidebar {
@@ -134,15 +132,15 @@ footer p {
     top: 0;
     right: 0;
     background-color: #DFB7FE;
-    overflow-x: hidden;
     padding-top: 20px;
     transition: 0.5s;
+    overflow-y: scroll;
   }
   
 
   .sidebar a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color: #384800;
     display: block;
     transition: 0.3s;
