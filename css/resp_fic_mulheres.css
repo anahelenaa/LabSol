@@ -1,7 +1,8 @@
-@media screen and (max-width: 1024px ) {
+@media screen and (max-width: 1000px ) {
     *{
-        font-size: 16px;
+        font-size: 20px;
     }
+
     .cabecalho {
         height: 80px;
     }
@@ -12,26 +13,17 @@
         margin-top: 8px;
     }
 
-    #banner{
-        height: 500px !important;
-    }
-
     div p{
         width: 600px;
     }
     
-    hr{
-        margin: 20px 10px;
-        width: 650px;
-    }
-
-   h1{
-        font-size: 20px;
+    h1{
+        font-size: 30px;
         margin: 40px;
     }
 
     h2{
-        font-size: 18px;
+        font-size: 28px;
         margin-left: 10px;
     }
 
@@ -43,9 +35,13 @@
     div{
         width: 600px;
     }
+
+    li{
+        font-size: 20px;
+    }
     
     ol{
-        width: 600px;
+        width: 97%;
     }
 
     .logo_mulher_empreen{
@@ -67,11 +63,10 @@
     }
 
     .img_logo_mulher_empreen {
+        width: 80%;
         height: 400px;
-        margin-top: 60px;
-        margin-bottom: -40px;
+        margin: 50px 0px;
     }
-
 
     footer{
         height: 270px;
@@ -93,7 +88,7 @@
     .menu-aberto{
         width: 100% !important;
         opacity: 0.9;
-        padding-left: 60px;
+        padding-left: 100px;
     }
 
     .menu-fechado{
@@ -111,75 +106,93 @@
 
     .closebtn {
         font-size: 50px !important;
+        margin-right: -80px;
     }
 
     .sidebar a{
-        margin-top: -25px;
+        margin-top: -30px;
+    }
+
+    .itens-menu{
+        width: 600px;
+    }
+
+    .itens-menu a{
+        width: 500px;
+        padding-bottom: 60px;
+        padding-left: 0px;
     }
 }
 
+
 @media screen and (max-width: 650px) {
+
     *{
-        font-size: 16px;
+        font-size: 12px !important;
     }
+    
     .cabecalho {
-        height: 80px;
+        height: 80px !important;
         top: 0;
         width: 100% !important ;
     }
 
     #logo {
-        height: 65px;
+        height: 65px !important;
         padding-left: 20px;
         margin-top: 8px;
     }
 
-    #banner{
-        height: 400px !important;
+    div{
+        width: 100%;
+        position:center;
     }
 
     div p{
-        width: 290px;
-    }
-    
-    hr{
-        margin: 20px 0px;
-        width: 300px;
+        width: 100%;
     }
 
     h1{
-        font-size: 20px;
-        margin: -60px 20px 20px 20px;
+        font-size: 20px !important;
+        margin: 30px 20px 20px 20px;
     }
 
     h2{
-        font-size: 18px;
-        margin-left: 10px;
+        font-size: 18px !important;
+        margin-left: 0;
     }
 
     section{
-        align-content: center;
         align-items: center;
+        justify-items: center;       
     }
 
-    div{
-        width: 290px;
+    li{
+        font-size: 12px;
+        width: 100%;
     }
     
     ol{
-        width: 290px;
+        width: 97%;
+        padding-left: 40px;
     }
 
     .txt_logo{
-        width: 290px;
+        width: 80%;
+    }
+
+    .txt_logo p{
+        width: 100%;
     }
 
     .logo_mulher_empreen{
-        width: 290px;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 20px 0px;
     }
+    
 
     .fotos_img{
         grid-template-columns: repeat(1, auto);
@@ -188,14 +201,14 @@
     .sobre_logo{
         display: flex;
         flex-direction: column;
-        width: 290px;
+        width: 100%;
         align-items: center;
     }
 
     .img_logo_mulher_empreen {
+        width: 60%;
         height: 200px;
-        width: 300px;
-        margin: 20px 0px 20px 40px;
+        margin: 20px 0px;
     }
 
     .fic_img{
@@ -207,6 +220,7 @@
     .menu-aberto{
         width: 100% !important;
         opacity: 0.9;
+        padding-left: 30px;
     }
 
     .menu-fechado{
@@ -229,9 +243,18 @@
     }
 
     .sidebar a{
-        margin-top: -25px;
+        margin-top: -30px;
+        padding-right: 120px;
     }
 
+    .itens-menu{
+        width: 400px;
+    }
+
+    .itens-menu a{
+        width: 350px;
+        padding-left: 0px;
+    }
 
     /* rodapé */
     footer{
@@ -242,6 +265,7 @@
     footer p {
         margin-top: 10px;
         font-size: 10px;
+        padding-right: 20px;
     }
 
     footer img {
@@ -251,8 +275,10 @@
 
 }
 
-@media screen and (max-width: 400px) {
-    #banner{
-        height: 330px !important;
+@media screen and (max-width: 460px) {
+    .img_logo_mulher_empreen {
+        width: 50%;
+        height: 80px;
     }
+
 }

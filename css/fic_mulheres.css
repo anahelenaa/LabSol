@@ -1,9 +1,19 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #384800;
+}
+
 h1{
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 600;
     color: #ff9801;
     text-align: center;
-    margin: -80px 10px 20px 10px;
+    margin: 70px 10px 70px 10px;
 }
 
 h2{
@@ -37,10 +47,22 @@ section{
     display: flex;
     flex-direction: column;
     text-align: justify;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-indent: 25px;
+    transition: transform 0.3s ease;
+}
+
+.logo_mulher_empreen:hover{
+    transform: scale(1.01);
+    z-index: 0;
 }
 
 div p{
-    margin: 10px;
+    padding: 10px;
     width: 900px;
     text-align: justify;
 }
@@ -69,6 +91,7 @@ li{
 .sobre_logo{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .txt_logo{
@@ -81,12 +104,6 @@ li{
     width: fit-content;
 }
 
-hr{
-    background-color: #384800;
-    height: 4px;
-    margin: 40px -30px;
-}
-
 .fotos_img{
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -97,8 +114,8 @@ hr{
 
 .fic_img{
     border: solid #384800;
-    height: 250px;
-    width: 500px;
+    height: 200px;
+    width: 450px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,8 +153,3 @@ hr{
     z-index: 0;
 }
 
-.img_logo_mulher_empreen:hover{
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-    z-index: 0;
-}

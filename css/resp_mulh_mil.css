@@ -1,4 +1,4 @@
-@media screen and (max-width: 1024px ) {
+@media screen and (max-width: 1000px ) {
     *{
         font-size: 16px;
     }
@@ -12,33 +12,49 @@
         margin-top: 8px;
     }
 
-    #banner{
-        height: 500px !important;
+    section{
+        align-content: center;
+        justify-items: center; 
+        width: 90%;    
     }
 
     .sobre_fic{
-        width: 600px;
+        width: 80%;
+    }
+
+    .sobre_mil{
+        display: flex;
+        text-align: justify;
+        margin-top: 20px
+    }
+
+    .hist{
+        width: 90% !important;
+    }
+
+    .hist p{
+        width: 90% !important;
+    }
+
+    div{
+        width: 80%;
     }
 
     div p{
-        width: 600px !important;
-    }
-    
-    hr{
-        margin: 20px 10px;
-        width: 650px;
+        width: 100%;
     }
 
-   h1{
-        font-size: 20px;
-        margin: 20px;
+    h1{
+        font-size: 30px;
+        margin: 40px;
     }
 
     h2{
-        font-size: 18px;
+        font-size: 28px;
         margin-left: 10px;
     }
-
+    
+    /* RODAPÉ */
     footer{
         height: 100px;
         margin-top: 40px;
@@ -59,6 +75,7 @@
     .menu-aberto{
         width: 100% !important;
         opacity: 0.9;
+        padding-left: 100px;
     }
 
     .menu-fechado{
@@ -76,49 +93,80 @@
 
     .closebtn {
         font-size: 50px !important;
+        margin-right: -130px;
     }
 
     .sidebar a{
-        margin-top: -25px;
+        margin-top: -30px;
+    }
+
+    .itens-menu{
+        width: 600px;
+    }
+
+    .itens-menu a{
+        width: 500px;
+        padding-bottom: 60px;
+        padding-left: 0px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
     *{
-        font-size: 12px;
+        font-size: 12px !important;
     }
+
     .cabecalho {
-        height: 80px;
+        height: 80px !important;
+        top: 0;
+        width: 100%;
     }
 
     #logo {
-        height: 65px;
+        height: 65px !important;
         padding-left: 20px;
         margin-top: 8px;
     }
 
-    #banner{
-        height: 400px !important;
+
+    #menu-botao{
+        height: 65px !important;
+    }
+
+    div{
+        width: 90%;
+        position: center;
     }
 
     div p{
-        width: 290px;
-    }
-    
-    hr{
-        margin: 20px 0px;
-        width: 300px;
+        width: 90%;
     }
 
     h1{
-        font-size: 20px;
-        margin: -60px 20px 20px 20px;
+        font-size: 20px !important;
+        margin: 30px 20px 20px 20px;
     }
     h2{
-        font-size: 14px;
-        margin-left: 10px;
+        font-size: 18px !important;
+        margin-left: 0px;
     }
 
+    section{
+        align-items: center;
+        justify-items: center;
+        width: 90%;
+    }
+
+    .hist{
+        width: 90% !important;
+    }
+
+    .hist p{
+        width: 90% !important;
+        font-size: 12px;
+    }
+
+    /* RODAPÉ */
     footer{
         height: 100px;
         margin-top: 40px;
@@ -135,10 +183,11 @@
     }
 
     
-    /*MENU*/
-    .menu-aberto{
+     /*MENU*/
+     .menu-aberto{
         width: 100% !important;
         opacity: 0.9;
+        padding-left: 30px;
     }
 
     .menu-fechado{
@@ -147,6 +196,7 @@
 
     .corpo-menu-aberto{
         margin-right: 0px;
+        
     }
 
     .itens-menu a{
@@ -156,10 +206,22 @@
 
     .closebtn {
         font-size: 50px !important;
+        margin-right: -90px;
     }
 
     .sidebar a{
-        margin-top: -25px;
+        margin-top: -30px;
+        padding-right: 90px;
     }
+
+    .itens-menu{
+        width: 400px;
+    }
+
+    .itens-menu a{
+        width: 350px;
+        padding-left: 0px;
+    }
+
 }
 
