@@ -78,7 +78,7 @@ li{
 
 
 .img_logo_mulher_empreen{
-    background-image: url(/imagens/ProjMulheresEmpreend-Logo.png);
+    background-image: url(../imagens/ProjMulheresEmpreend-Logo.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 400px;
@@ -124,27 +124,27 @@ li{
 }
 
 #fic_img1{
-    background-image: url(/imagens/img_abert_fic.jpg);
+    background-image: url(../imagens/img_abert_fic.jpg);
 }
 
 #fic_img2{
-    background-image: url(/imagens/img_aula_fic.jpg);
+    background-image: url(../imagens/img_aula_fic.jpg);
 }
 
 #fic_img3{
-    background-image: url(/imagens/img_eva_fic.jpg);
+    background-image: url(../imagens/img_eva_fic.jpg);
 }
 
 #fic_img4{
-    background-image: url(/imagens/img_cestas_fic.jpg);
+    background-image: url(../imagens/img_cestas_fic.jpg);
 }
 
 #fic_img5{
-    background-image: url(/imagens/img_cestas_fic2.jpg);
+    background-image: url(../imagens/img_cestas_fic2.jpg);
 }
 
 #fic_img6{
-    background-image: url(/imagens/img_formatura_fic.jpg);
+    background-image: url(../imagens/img_formatura_fic.jpg);
 }
 
 .fotos_img .fic_img:hover{

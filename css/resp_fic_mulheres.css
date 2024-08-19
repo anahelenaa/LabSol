@@ -75,7 +75,8 @@
 
     footer p {
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 15px !important;
+        padding-right: 20px;
     }
 
     footer img {
