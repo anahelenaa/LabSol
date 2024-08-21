@@ -89,7 +89,7 @@
     .menu-aberto{
         width: 100% !important;
         opacity: 0.9;
-        padding-left: 100px;
+        padding-left: 40px;
     }
 
     .menu-fechado{
@@ -100,6 +100,10 @@
         margin-right: 0px;
     }
 
+    .itens-menu{
+        padding-left: 20%;
+    }
+
     .itens-menu a{
         font-size: 27px;
         padding: 25px;
@@ -108,10 +112,13 @@
     .closebtn {
         font-size: 50px !important;
         margin-right: -80px;
+        position: absolute;
+        right: 9%;
     }
 
     .sidebar a{
         margin-top: -30px;
+        padding-right:-20px;
     }
 
     .itens-menu{
@@ -126,7 +133,7 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
 
     *{
         font-size: 12px !important;
@@ -230,7 +237,10 @@
 
     .corpo-menu-aberto{
         margin-right: 0px;
-        
+    }
+    
+    .itens-menu{
+        padding-left: 20%;
     }
 
     .itens-menu a{
@@ -241,6 +251,8 @@
     .closebtn {
         font-size: 50px !important;
         margin-right: -90px;
+        position: absolute;
+        right: 2%;
     }
 
     .sidebar a{
@@ -255,6 +267,7 @@
     .itens-menu a{
         width: 350px;
         padding-left: 0px;
+        font-size: 20px !important;
     }
 
     /* rodapé */
@@ -265,7 +278,7 @@
 
     footer p {
         margin-top: 10px;
-        font-size: 10px;
+        font-size: 10px !important;
         padding-right: 20px;
     }
 
@@ -276,10 +289,14 @@
 
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 400px) {
     .img_logo_mulher_empreen {
         width: 50%;
         height: 80px;
+    }
+    
+    .itens-menu{
+        padding-left: 10%;
     }
 
 }
