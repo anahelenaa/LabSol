@@ -6,9 +6,18 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif; 
-    font-weight: 400;
+    /*font-weight: 400;*/
     font-size: 19px;
     color: #384800;
+}
+#infor{
+    background: #fff;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-indent: 25px;
+    transition: transform 0.3s ease;
 }
 
 /*h1{
@@ -142,4 +151,8 @@ footer p {
     transition: 0.7s;
     padding-top: 102px;
   }
-
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff5d2;
+}
