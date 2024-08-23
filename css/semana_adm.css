@@ -19,12 +19,6 @@
     text-indent: 25px;
     transition: transform 0.3s ease;
 }
-/*h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    color: #384800;
-} */
 
 .cabecalho {
     background-color: #DFB7FE;
@@ -73,6 +67,11 @@ footer p {
     font-size: 27px;
     font-weight: 600;
     padding-bottom: 10px;
+}
+
+.banner_administracao{
+    display: flex;
+    justify-content: center;
 }
 
 /*MENU*/

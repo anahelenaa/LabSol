@@ -20,12 +20,6 @@
     transition: transform 0.3s ease;
 }
 
-/*h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-size: 19px;
-    color: #384800;
-} */
 
 .cabecalho {
     background-color: #DFB7FE;
@@ -69,6 +63,11 @@ footer p {
 
 .div-imagem:last-of-type{
     margin-bottom: 90px;
+}
+
+.bannersustentabilidade{
+    display: flex;
+    justify-content: center;
 }
 
 /*MENU*/
